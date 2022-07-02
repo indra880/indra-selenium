@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="KiteAppTestClasses.KiteUNTestUsingProperty">
+      <class name="practice.FlipCart">
         <methods>
-          <include name="logOutFromKite"/>
-          <include name="launchBrowser"/>
-          <include name="ValidateUserName"/>
-          <include name="loginToKiteApp"/>
-          <include name="closeBrowser"/>
+          <include name="buymobile"/>
         </methods>
-      </class> <!-- KiteAppTestClasses.KiteUNTestUsingProperty -->
+      </class> <!-- practice.FlipCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

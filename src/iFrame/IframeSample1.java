@@ -15,7 +15,7 @@ public class IframeSample1 {
 		Thread.sleep(1000);
 		
 		//switch selenium focus from main page to frame
-		
+		// updated by indrajit jagtap
 		driver.switchTo().frame("iframe-name");
 		Thread.sleep(100);
 		//current focus is on frame now

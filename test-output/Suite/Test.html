@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 22 07:55:11 IST 2022</td>
+<td>Started on:</td><td>Thu Jun 23 18:34:32 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (43 ms)</td>
+<tr><td>Total time:</td><td>15 seconds (15198 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -70,109 +70,132 @@ function toggleAllBoxes() {
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNGlistener.PuneTest.Swargate()'><b>Swargate</b><br>Test class: testNGlistener.PuneTest<br/>
-<a href="#Output-1774720883" onClick='toggleBox("Output-1774720883", this, "Show output", "Hide output");'>Show output</a>
+<td title='testClasses.TestNgTestClass.verifyInvestmentButtonisAvailable()'><b>verifyInvestmentButtonisAvailable</b><br>Test class: testClasses.TestNgTestClass<br/>
+<a href="#Output-685871974" onClick='toggleBox("Output-685871974", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1774720883" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1774720883">
-TC is failed, screenshot taken<br/>
-Failed TC name is Swargate<br/>
+<a href="#Output-685871974" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-685871974">
+Tc is start<br/>
+start test case name isverifyInvestmentButtonisAvailable<br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: null
-	at testNGlistener.PuneTest.Swargate(PuneTest.java:11)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1774720883", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1774720883'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.fail(Assert.java:106)
-	at testNGlistener.PuneTest.Swargate(PuneTest.java:11)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+<td><div><pre>org.testng.internal.thread.ThreadTimeoutException: Method testClasses.TestNgTestClass.verifyInvestmentButtonisAvailable() didn&apos;t finish within the time-out 100
+	at java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.15/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.15/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1798)
+	at java.base@11.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3128)
+	at java.base@11.0.15/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1868)
+	at java.base@11.0.15/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at app//org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at app//org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+	at app//org.openqa.selenium.remote.http.netty.NettyHttpHandler$$Lambda$233/0x000000001e736c40.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$435/0x000000001e7ffc40.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at app//org.openqa.selenium.remote.http.Filter$$Lambda$234/0x000000001e736440.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$435/0x000000001e7ffc40.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at app//org.openqa.selenium.remote.http.Filter$$Lambda$234/0x000000001e736440.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at app//org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at app//org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
+	at app//org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at app//org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at app//com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+	at app//kiteAppPomClasses.HomePage.validateInvestmentButton(HomePage.java:22)
+	at app//testClasses.TestNgTestClass.verifyInvestmentButtonisAvailable(TestNgTestClass.java:56)
+	at java.base@11.0.15/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace685871974", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace685871974'><pre>org.testng.internal.thread.ThreadTimeoutException: Method testClasses.TestNgTestClass.verifyInvestmentButtonisAvailable() didn&apos;t finish within the time-out 100
+	at java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.15/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.15/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1798)
+	at java.base@11.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3128)
+	at java.base@11.0.15/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1868)
+	at java.base@11.0.15/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at app//org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at app//org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+	at app//org.openqa.selenium.remote.http.netty.NettyHttpHandler$$Lambda$233/0x000000001e736c40.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$435/0x000000001e7ffc40.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at app//org.openqa.selenium.remote.http.Filter$$Lambda$234/0x000000001e736440.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$435/0x000000001e7ffc40.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at app//org.openqa.selenium.remote.http.Filter$$Lambda$234/0x000000001e736440.execute(Unknown Source)
+	at app//org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at app//org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at app//org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
+	at app//org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at app//org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at app//com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+	at app//kiteAppPomClasses.HomePage.validateInvestmentButton(HomePage.java:22)
+	at app//testClasses.TestNgTestClass.verifyInvestmentButtonisAvailable(TestNgTestClass.java:56)
+	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.15/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+	at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+	at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+	at java.base@11.0.15/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
 <td>0</td>
-<td>testNGlistener.PuneTest@6e0f5f7f</td></tr>
+<td>testClasses.TestNgTestClass@117159c0</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNGlistener.PuneTest.shivajiNagar()'><b>shivajiNagar</b><br>Test class: testNGlistener.PuneTest<br/>
-<a href="#Output-201719260" onClick='toggleBox("Output-201719260", this, "Show output", "Hide output");'>Show output</a>
+<td title='testClasses.TestNgTestClass.verifyStartedButtonIsAvailable()'><b>verifyStartedButtonIsAvailable</b><br>Test class: testClasses.TestNgTestClass<br/>
+<a href="#Output-626941486" onClick='toggleBox("Output-626941486", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-201719260" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-201719260">
-shivajiNagar TC is running<br/>
-TC is sucess<br/>
-Success TC name is shivajiNagar<br/>
+<a href="#Output-626941486" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-626941486">
+Tc is start<br/>
+start test case name isverifyStartedButtonIsAvailable<br/>
+Started button is displayed TC is pass<br/>
+TC is passed<br/>
+success TC name isverifyStartedButtonIsAvailable<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>testNGlistener.PuneTest@6e0f5f7f</td></tr>
-<tr>
-<td title='testNGlistener.Mumbai.ghanSoli()'><b>ghanSoli</b><br>Test class: testNGlistener.Mumbai<br/>
-<a href="#Output-11249189" onClick='toggleBox("Output-11249189", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-11249189" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-11249189">
-ghanSoli TC is running<br/>
-TC is sucess<br/>
-Success TC name is ghanSoli<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>testNGlistener.Mumbai@659499f1</td></tr>
-<tr>
-<td title='testNGlistener.Mumbai.Sanpada()'><b>Sanpada</b><br>Test class: testNGlistener.Mumbai<br/>
-<a href="#Output-2053996178" onClick='toggleBox("Output-2053996178", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2053996178" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2053996178">
-Sanpada TC is running<br/>
-TC is sucess<br/>
-Success TC name is Sanpada<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>testNGlistener.Mumbai@659499f1</td></tr>
+<td>testClasses.TestNgTestClass@117159c0</td></tr>
 </table><p>
 </body>
 </html>
